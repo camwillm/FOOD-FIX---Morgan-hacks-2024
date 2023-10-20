@@ -1,0 +1,72 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+
+}
+
+.bg {
+    position: absolute;
+    height: 500px;
+    top: 8rem;
+    right: 2rem;
+    padding: 5rem;
+}
+
+.introcontent {
+    height: 100vh;
+    width: 50vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #74ddd8;
+}
+
+.hello {
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: 'Manrope', sans-serif;
+}
+
+.introtxt {
+    font-family: 'Manrope', sans-serif;
+}
+
+.introname {
+    color: #6090d8;
+    padding-left: 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.introjob {
+    color: #6090d8;
+    font-family: 'Manrope', sans-serif;
+}
+
+.introparagraph {
+    font-size: 30px;
+}
+
+.HireBtn {
+    background-color: #74ddd8;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5000px;
+    transition: transform 0.3s;
+    border-color: black;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+}
+
+.HireBtn:hover {
+    transform: scale(1.15);
+    background-color: #6090d8;
+    cursor: pointer;
+}
