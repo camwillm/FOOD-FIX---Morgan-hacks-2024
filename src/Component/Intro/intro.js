@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import bg from '../Intro/pic.jpeg'
+import bg from '../Intro/reactimage-removebg-preview.png'
 import { Link } from 'react-scroll';
 
 const Intro = () => {

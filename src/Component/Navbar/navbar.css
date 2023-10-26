@@ -1,6 +1,7 @@
 .imgsizing {
     height: 8rem;
     padding: 1rem 2rem;
+    position: relative;
 }
 
 .imgsizing:hover {
@@ -8,9 +9,10 @@
 }
 
 .navbar {
+    background: #1e1d25;
     height: 5rem;
     width: 100vw;
-    max-width: 75rem;
+    max-width: 100vw;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -22,7 +24,8 @@
 }
 
 .desktopMenuListItem {
-    margin: 1rem;
+    padding-left: 1rem;
+    margin: 2rem;
     cursor: pointer;
     color: #74ddd8;
     font-family: 'Cairo', sans-serif;
