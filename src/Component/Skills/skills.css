@@ -21,6 +21,58 @@
 .skillDesc{
     font-size: 1rem;
     font-weight: 400;
-    padding: 1rem;
+    padding: 0 2rem;
+    max-width: 51rem;
     font-family: 'Manrope', sans-serif;
+}
+.skillBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillbar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color:rgb(50,50,50);
+}
+
+.skillBarImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.skillbarText>p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+}
+
+
+.skillbarText>h2{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 720px) {
+    .skillbarText:p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .skillbarText>p{
+        font-size: 2vw;
+    }
+    .skillBarImg{
+        height: 2rem;
+        width: 2rem;
+    }
+    .skillbarText>h2{
+        font-size: 5vw;
+    }
 }

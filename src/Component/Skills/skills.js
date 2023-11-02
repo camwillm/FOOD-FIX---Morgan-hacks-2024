@@ -9,8 +9,8 @@ const Skills = () => {
     return (
         <section id='skills'>
             <span className='skillTitle'>My Speacialties</span>
-            <span className='skillDesc'>I am most skilled with web development and is the most relatable to my buisness world.</span>
-            .<div className='skillBars'>
+            <span className='skillDesc'>I am most skilled with web development and is the most relatable to my buisness world. I also list my most profound skill sets. I also have some experience with other languages such as Java and Javascript.</span>
+            <div className='skillBars'>
                 <div className='skillbar'>
                     <img src={python} alt='python' className='skillBarImg' />
                     <div className='skillbarText'>
@@ -21,7 +21,7 @@ const Skills = () => {
                 <div className='skillbar'>
                     <img src={react2} alt='react2' className='skillBarImg' />
                     <div className='skillbarText'>
-                        <h2>Design In React</h2>
+                        <h2>Proficiency In React</h2>
                         <p>React is what I mainly use when designing user interaces and enjoy being creative with it.</p>
                     </div>
                 </div>
