@@ -24,7 +24,6 @@
 }
 
 .desktopMenuListItem {
-    padding-left: 1rem;
     margin: 2rem;
     cursor: pointer;
     color: #74ddd8;
@@ -57,4 +56,9 @@
     transform: scale(1.15);
     background-color: #6090d8;
     cursor: pointer;
+}
+
+.active{
+    color: #6090d8;
+    border-bottom: 3px solid #6090d8;
 }
