@@ -9,7 +9,7 @@ const Skills = () => {
     return (
         <section id='skills'>
             <span className='skillTitle'>Information</span>
-            <span className='skillDesc'>Many companies often have left over ingreients and product at the end of the evening. Tons struggle with the ability of atttaining the necesary nutrtrients or caloric intake. This is due to the disparities in society. Many people even if they can afford food can not afford the food with the positve impact on their health. This often leads to many problems including decline productivity. In addition a decline in both health and socially.</span>
+            <span className='skillDesc'>Many companies often have left over ingredients and product at the end of the evening. There is a multitude that struggle with the ability of atttaining the necesary nutrtrients or caloric intake. This is due to the disparities in society and the wide demographic that have had trouble the necesary funds. Many people even if they can afford food,its not the food with the positve impact on their health. This often leads to many problems including decline productivity.</span>
             <span className='skillDesc'>-----</span>
             <span className='skillDesc'>Overall this could be improved with the food offered at the following establishments. They can offer up the rest of their not used food for the less fortunate.</span>
             <div className='skillBars'>
