@@ -11,7 +11,7 @@ const Contact = () => {
         <nav className="contactPage">
             <div id='contact'>
                 <h1 className='contactPageTitle'>Donate to the Cause</h1>
-                <span className='contactDesc'>If you wish to volunteer, fill out the form or, it can be submit directly.</span>
+                <span className='contactDesc'>If you wish to volunteer, fill out the form, or a donation can be submit directly.</span>
                 <form className='contactForm'>
                     <input type="text" className='name' placeholder='Your Name' />
                     <input type="email" className='email' placeholder='Your Email' />

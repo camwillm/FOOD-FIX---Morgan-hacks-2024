@@ -1,4 +1,4 @@
-#skills{
+#skills {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -10,70 +10,102 @@
     margin: 0 auto;
 }
 
-.skillTitle{
+.skillTitle {
     font-size: 3rem;
     font-weight: 700;
-    padding-top: 3rem;
+    padding: 3rem;
     margin-bottom: 2rem;
     font-family: 'Manrope', sans-serif;
+    text-align: center;
+    color: lightblue;
 }
 
-.skillDesc{
+.skillDesc {
     font-size: 0.9rem;
     font-weight: 400;
     padding: 0 2rem;
     max-width: 51rem;
     font-family: 'Manrope', sans-serif;
 }
-.skillBars{
+
+.skillBars {
     margin: 1.5rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
 }
 
-.skillbar{
+.skillbar {
     display: flex;
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
-    background-color:rgb(50,50,50);
+    background-color: rgb(50, 50, 50);
 }
 
-.skillBarImg{
+.skillBarImg {
     object-fit: cover;
     height: 3rem;
     width: 3rem;
     margin-right: 2rem;
 }
 
-.skillbarText>p{
+.skillbarText>p {
     font-family: 'Manrope', sans-serif;
     font-weight: 200;
     font-size: small;
 }
 
 
-.skillbarText>h2{
+.skillbarText>h2 {
     font-family: 'Manrope', sans-serif;
     font-weight: 900;
 }
 
+.locationDropdowns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.locationDropdowns select {
+    width: calc(20% - 10px);
+    /* Adjusted width for 5 dropdowns */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* Added margin bottom for spacing between rows */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-size: 0.5rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .locationDropdowns select {
+        width: calc(50% - 10px);
+        /* Adjusted width for smaller screens */
+    }
+}
+
 @media screen and (max-width: 720px) {
-    .skillbarText:p{
+    .skillbarText:p {
         font-size: 2vw;
     }
 }
 
 @media screen and (max-width: 460px) {
-    .skillbarText>p{
+    .skillbarText>p {
         font-size: 2vw;
     }
-    .skillBarImg{
+
+    .skillBarImg {
         height: 2rem;
         width: 2rem;
     }
-    .skillbarText>h2{
+
+    .skillbarText>h2 {
         font-size: 5vw;
     }
 }
