@@ -33,6 +33,7 @@
     width: 100vw;
     max-width: 80%;
     text-align: left;
+
 }
 
 .skillbar {
@@ -41,6 +42,7 @@
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background-color: rgb(50, 50, 50);
+    color: lightbluex;
 }
 
 .skillBarImg {

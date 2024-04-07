@@ -45,7 +45,7 @@ const Skills = () => {
                 <div className='locationDropdowns'>
                     <select>
                         <option>Closest Chipotle location</option>
-                        {/* Add options for Chipotle locations */}
+                        <option>Morgan Campus: 0.0miles</option>
                     </select>
                     <select>
                         <option>Closest Olive Garden location</option>
