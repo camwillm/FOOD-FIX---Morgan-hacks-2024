@@ -1,21 +1,20 @@
 import React from 'react';
 import './navbar.css'
-import logo from '../Navbar/cw-image-final.png';
+import logo from '../Navbar/circle.png';
 import { Link } from 'react-scroll';
 const Navbar = () => {
     return (
         <nav className="navbar">
             <img src={logo} alt="" className='imgsizing' />
             <div className='desktopMenu'>
-                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Home</Link>
-                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>About</Link>
-                <Link activeClass='active' to='works' spy={true} smooth={true} offset={100} duration={500} className='desktopMenuListItem'>Portfolio</Link>
-                <Link className='desktopMenuListItem'>Buisness</Link>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={700} className='desktopMenuListItem'>Home</Link>
+                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={700} className='desktopMenuListItem'>Food Drive</Link>
+                <Link activeClass='active' to='works' spy={true} smooth={true} offset={100} duration={700} className='desktopMenuListItem'>End Of night Distribution</Link>
             </div>
-            <button className='desktopMenuBtn' onClick={()=>{
-                document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
+            <button className='desktopMenuBtn' onClick={() => {
+                document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
             }}>
-                <img src="" alt="" className="desktopMenuImg" /> Contact Me</button>
+                <img src="" alt="" className="desktopMenuImg" /> </button>
         </nav>
     )
 }

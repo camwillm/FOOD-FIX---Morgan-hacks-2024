@@ -9,11 +9,12 @@
     position: absolute;
     height: 600px;
     top: 16rem;
-    left: 58rem;
-    padding: 3rem;
+    left: 40rem;
+    padding: 5rem;
 }
+
 .introcontent {
-    position:absolute;
+    position: absolute;
     padding: 0 auto;
     height: 100vh;
     width: 40vw;
@@ -22,7 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #74ddd8;
+    color: lightblue;
 }
 
 .hello {
@@ -36,23 +37,27 @@
 }
 
 .introname {
-    color: #6090d8;
+    color: white;
     padding-left: 1rem;
-    font-family: 'Manrope', sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .introjob {
-    color: #6090d8;
+    color: white;
     font-family: 'Manrope', sans-serif;
 }
 
 .introparagraph {
     font-size: 30px;
     font-family: 'Manrope', sans-serif;
+    font-weight: 100;
 }
 
 .HireBtn {
-    background-color: #74ddd8;
+    background-color: lightblue;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
@@ -67,6 +72,6 @@
 
 .HireBtn:hover {
     transform: scale(1.15);
-    background-color: #6090d8;
+    background-color: whitesmoke;
     cursor: pointer;
 }
