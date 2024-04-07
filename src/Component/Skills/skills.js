@@ -2,14 +2,14 @@ import React from 'react';
 import './skills.css'
 import buisness2 from './buisness.png'
 import gear from './gear.png'
-import python from'./pythonlogo.png'
-import react2 from'./reactlogoo.png'
+import python from './pythonlogo.png'
+import react2 from './reactlogoo.png'
 
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className='skillTitle'>My Speacialties</span>
-            <span className='skillDesc'>I am most skilled with web development and is the most relatable to my buisness world. I also list my most profound skill sets. I also have some experience with other languages such as Java and Javascript.</span>
+            <span className='skillTitle'>Information</span>
+            <span className='skillDesc'>Many companies often have left over ingreients and product at the end of the evening. Tons struggle with the ability of atttaining the necesary nutrtrients or caloric intake. This is due to the disparities in society. Many people even if they can afford food can not afford the food with the positve impact on their health. This often leads to many problems including decline productivity. In addition a decline in both health and socially.</span>
             <div className='skillBars'>
                 <div className='skillbar'>
                     <img src={python} alt='python' className='skillBarImg' />

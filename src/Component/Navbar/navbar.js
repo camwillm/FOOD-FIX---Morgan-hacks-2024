@@ -8,13 +8,13 @@ const Navbar = () => {
             <img src={logo} alt="" className='imgsizing' />
             <div className='desktopMenu'>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={700} className='desktopMenuListItem'>Home</Link>
-                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={700} className='desktopMenuListItem'>Food Drive</Link>
-                <Link activeClass='active' to='works' spy={true} smooth={true} offset={100} duration={700} className='desktopMenuListItem'>End Of night Distribution</Link>
+                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={700} className='desktopMenuListItem'>Distribution</Link>
+                <Link activeClass='active' to='works' spy={true} smooth={true} offset={100} duration={700} className='desktopMenuListItem'>Food Drive</Link>
             </div>
             <button className='desktopMenuBtn' onClick={() => {
                 document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
             }}>
-                <img src="" alt="" className="desktopMenuImg" /> </button>
+                <img src="" alt="" className="desktopMenuImg" />Donate</button>
         </nav>
     )
 }
